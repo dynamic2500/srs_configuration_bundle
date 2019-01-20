@@ -12,11 +12,11 @@
 
 # the config of ROOT, user must modify it when start srs from other directory,
 # it's ok to use the script by command ./etc/init.d/ossrs
-ROOT="/root/docker/livegw/app/srs"
+ROOT="/usr/local/srs"
 APP="./objs/srs"
 CONFIG="./conf/srs.conf"
-DEFAULT_PID_FILE='./objs/srs-pk.pid'
-DEFAULT_LOG_FILE='./objs/srs-pk.log'
+DEFAULT_PID_FILE='./objs/srs.pid'
+DEFAULT_LOG_FILE='./objs/srs.log'
 
 ########################################################################
 # utility functions
